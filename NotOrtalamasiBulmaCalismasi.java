@@ -6,7 +6,7 @@ class NotOrtalamasiBulmaCalismasi {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Lutfen vize notunuzu giriniz: ");
+        System.out.println("80Lutfen vize notunuzu giriniz: ");
         vizeNotu = input.nextInt();
         System.out.println("Lutfen final notunuzu giriniz: ");
         finalNotu = input.nextInt();
@@ -32,5 +32,6 @@ class NotOrtalamasiBulmaCalismasi {
             System.out.println("Not ortalamaniz: " + ortalama);
             System.exit(0);
         }
+        input.close();
     }
 }

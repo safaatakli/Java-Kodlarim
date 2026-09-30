@@ -16,5 +16,7 @@ class KDVHesaplama {
 
         System.out.println("Ürününüzün kdv dahil fiyatı: " + yeniFiyat);
         System.exit(0);
+
+        input.close();
     }
 }
